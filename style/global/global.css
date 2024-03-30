@@ -1,0 +1,41 @@
+@import url(../article/article.css);
+@import url(../footer/footer.css);
+@import url(../header/header.css);
+@import url(../main/main.css);
+@import url(../nav/nav.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.container {
+  padding-left: 280px;
+  padding-right: 280px;
+}
+
+a:hover {
+  color: aqua;
+}
+
+@media (max-width: 448px) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media (min-width: 449px) and (max-width: 700px) {
+  .container {
+    padding-left: 105px;
+    padding-right: 105px;
+  }
+}
+@media (min-width: 701px) and (max-width: 1000px) {
+  .container {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}/*# sourceMappingURL=global.css.map */

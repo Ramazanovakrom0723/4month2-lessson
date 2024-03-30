@@ -1,0 +1,87 @@
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  padding-top: 106px;
+}
+header h1 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+}
+header .header_boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+header .header_boxes hr {
+  width: 70%;
+}
+header .header_boxes .header_box {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+header .data {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .data .line {
+  width: 1px;
+  height: 18px;
+  background-color: black;
+}
+header .data .right p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.38px;
+  color: #8695A4;
+}
+
+@media (max-width: 448px) {
+  header {
+    padding-top: 25px;
+    gap: 20px;
+  }
+  header .header_boxes {
+    gap: 24px;
+  }
+  header .header_boxes hr {
+    width: 100%;
+  }
+  header .header_boxes .header_box {
+    width: 100%;
+  }
+  header .header_boxes .header_box h2 {
+    font-size: 22px;
+  }
+  header .data {
+    gap: 14px;
+  }
+  header .data .right p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 449px) and (max-width: 700px) {
+  header {
+    gap: 100px;
+    padding-top: 90px;
+    text-align: center;
+    justify-content: center;
+  }
+  header .header-text {
+    width: 80%;
+    gap: 31px;
+  }
+}
+@media (min-width: 701px) and (max-width: 1000px) {
+  header {
+    text-align: center;
+    justify-content: center;
+  }
+  header .header-text {
+    width: 60%;
+  }
+}/*# sourceMappingURL=header.css.map */

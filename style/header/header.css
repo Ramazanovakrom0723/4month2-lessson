@@ -1,0 +1,69 @@
+header {
+  width: 100%;
+  padding-top: 140px;
+  display: flex;
+  gap: 180px;
+  flex-wrap: wrap;
+}
+header .header-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+header .header-text h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+}
+header .header-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #21243D;
+}
+header .header-text button {
+  padding: 15px 22px;
+  background-color: #FF6464;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 550;
+  line-height: 29px;
+  cursor: pointer;
+}
+
+@media (max-width: 448px) {
+  header {
+    gap: 50px;
+    padding-top: 60px;
+    text-align: center;
+    justify-content: center;
+  }
+  header .header-text {
+    width: 100%;
+    gap: 21px;
+  }
+}
+@media (min-width: 449px) and (max-width: 700px) {
+  header {
+    gap: 100px;
+    padding-top: 90px;
+    text-align: center;
+    justify-content: center;
+  }
+  header .header-text {
+    width: 80%;
+    gap: 31px;
+  }
+}
+@media (min-width: 701px) and (max-width: 1000px) {
+  header {
+    text-align: center;
+    justify-content: center;
+  }
+  header .header-text {
+    width: 60%;
+  }
+}/*# sourceMappingURL=header.css.map */
